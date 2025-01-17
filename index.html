@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Design Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+        }
+        
+        header p {
+            margin: 5px 0;
+        }
+        
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .hero {
+            background: url('https://i.ytimg.com/vi/boB04ufGxf8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAS8KGzaHRuvzFuOVpjQmixazxe5w') no-repeat center center/cover;
+            color: white;
+            height: 300px;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        
+        .card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+        }
+        
+        .card img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        form input,
+        form textarea,
+        form button {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        form button {
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+        
+        .about {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .about img {
+            width: 150px;
+            height: 100px;
+            margin-right: 20px;
+            border: 3px solid yellow;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vansh Design Studio</h1>
+        <p>Transforming Spaces, Redefining Elegance</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Welcome to Vansh Design Studio</h2>
+        <p>Your partner in creating inspiring spaces.</p>
+    </div>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <div class="about">
+            <img src="https://creator.nightcafe.studio/jobs/zZVM1CCKXtJ4aNPIfU2s/zZVM1CCKXtJ4aNPIfU2s--1--rpizx.jpg" alt="About Image">
+            <p>At Vansh Design Studio, we specialize in transforming residential and commercial spaces into beautiful, functional environments. Meet our talented team:</p>
+        </div>
+
+    </div>
+
+    <div id="projects">
+        <h2>Our Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <img src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413654275/OW/PJ/LZ/137386594/product-jpeg.jpg" alt="Modern Apartment">
+                <h3>Famous ARTS </h3>
+                <p>White Pen art on paper.</p>
+            </div>
+            <div class="card">
+                <img src="https://www.jackiemorris.co.uk/wp-content/uploads/2021/02/IMG_1087-2-1024x768.jpg" alt="Corporate Office">
+                <h3>Sleeping Beauties</h3>
+                <p>The alchemy of colourmen and dreamers.</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvb0fhUe36aaTZdoG-Y27Wq_iSksEtf2Bnw&s" alt="Latest Drawing">
+                <h3>Sketch Drawing</h3>
+                <p>Pencil or Eraser drawing.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out using the form below:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Vansh Design Studio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
