@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0.4px;
+            margin: 0.3px;
             padding: 0;
         }
         
@@ -29,8 +29,8 @@
         
         nav {
             background-color: #ab6060;
-            display: flex;
-            justify-content: center;
+            text-align: center;
+            padding: 15px;
         }
         
         nav a {
@@ -49,9 +49,7 @@
         }
         
         .projects {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
+            margin: 10px;
         }
         
         .card {
@@ -77,10 +75,9 @@
         }
         
         form {
-            max-width: 600px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
+            margin: 19px;
+            width: 100px;
+            text-align: center;
         }
         
         form input,
@@ -90,6 +87,8 @@
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 5px;
+            width: 500px;
+            margin-left: 320px;
         }
         
         form button {
@@ -98,11 +97,7 @@
             border: none;
         }
         
-        .about {
-            display: flex;
-            align-items: Center;
-            padding: 20px;
-        }
+        .about {}
         
         .about img {
             width: 400px;
@@ -111,6 +106,15 @@
             border: 4px solid rgb(255, 255, 19);
             border-radius: 10px;
             margin-left: 50px;
+        }
+        
+        .about-title {
+            position: absolute;
+            margin-top: 2px;
+            margin-left: 20px;
+            width: 50%;
+            height: 70%;
+            margin-left: 520px;
         }
     </style>
 </head>
@@ -134,52 +138,53 @@
     </div>
 
     <div id="about">
-        <h2 style="text-align: center; font-size: 30px; ">About Us</h2>
+        <h2 style="text-align: center; font-size: 30px; margin-right: 20px;  ">About Us</h2>
+        <p style="width: 50%;margin-left: 530px;position: absolute; margin-top: 50px;"> For as long as humanity has existed, art has been part of our lives. For many years, people have been creating and enjoying art It expresses emotions or expression of life. It is one such creation that enables interpretation of any kind. It is
+            a skill that applies to music, painting, poetry, dance and more. Moreover, nature is no less than art. For instance, if nature creates something unique, it is also art. Artists use their artwork for passing along their feelings.</p>
+
         <div class="about">
             <img src="https://creator.nightcafe.studio/jobs/zZVM1CCKXtJ4aNPIfU2s/zZVM1CCKXtJ4aNPIfU2s--1--rpizx.jpg" alt="About Image">
-            <p style="text-align: center; margin-right: 60px;">For as long as humanity has existed, art has been part of our lives. For many years, people have been creating and enjoying art It expresses emotions or expression of life. It is one such creation that enables interpretation of any kind. It
-                is a skill that applies to music, painting, poetry, dance and more. Moreover, nature is no less than art. For instance, if nature creates something unique, it is also art. Artists use their artwork for passing along their feelings.</p>
+
+
         </div>
 
-    </div>
-
-    <div id="projects">
-        <h2 style="text-align: center; font-size: 35px;">Our Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <img src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413654275/OW/PJ/LZ/137386594/product-jpeg.jpg" alt="Modern Apartment">
-                <h3>Famous ARTS </h3>
-                <p>White Pen art on paper.</p>
-            </div>
-            <div class="card">
-                <img src="https://www.jackiemorris.co.uk/wp-content/uploads/2021/02/IMG_1087-2-1024x768.jpg" alt="Corporate Office">
-                <h3>Sleeping Beauties</h3>
-                <p>The alchemy of colourmen and dreamers.</p>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvb0fhUe36aaTZdoG-Y27Wq_iSksEtf2Bnw&s" alt="Latest Drawing">
-                <h3>Sketch Drawing</h3>
-                <p>Pencil or Eraser drawing.</p>
+        <div id="projects">
+            <h2 style="text-align: center; font-size: 35px;">Our Projects</h2>
+            <div class="projects">
+                <div style="position: absolute; margin-left: 850px;" class="card">
+                    <img src="https://5.imimg.com/data5/ANDROID/Default/2024/4/413654275/OW/PJ/LZ/137386594/product-jpeg.jpg" alt="Modern Apartment">
+                    <h3>Famous ARTS </h3>
+                    <p>White Pen art on paper.</p>
+                </div>
+                <div style="position: absolute; margin-left: 450px; margin-top: 1px;" class="card">
+                    <img src="https://www.jackiemorris.co.uk/wp-content/uploads/2021/02/IMG_1087-2-1024x768.jpg" alt="Corporate Office">
+                    <h3>Sleeping Beauties</h3>
+                    <p>The alchemy of colourmen and dreamers.</p>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJvb0fhUe36aaTZdoG-Y27Wq_iSksEtf2Bnw&s" alt="Latest Drawing">
+                    <h3>Sketch Drawing</h3>
+                    <p>Pencil or Eraser drawing.</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="contact">
-        <h2 style="text-align: center;font-size: 35px;">Contact Us</h2>
-        <p style="text-align: center;"> Fill All Details Correctly </p>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="text" placeholder="Your Email" required>
-            <input type="number" placeholder="Your Phone Number" required>
-            <textarea placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <div id="contact">
+            <h2 style="text-align: center;font-size: 35px;">Contact Us</h2>
+            <p style="text-align: center;"> Fill All Details Correctly </p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Your Email" required>
+                <input type="number" placeholder="Your Phone Number" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
 
-    </div>
+        </div>
 
-    <footer>
-        <p>&copy; 2025 Vansh Design Studio. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Vansh Design Studio. All rights reserved.</p>
+        </footer>
 </body>
 
 </html>
